@@ -2,6 +2,7 @@ import { Container, ThemeProvider } from "@mui/material";
 import { useEffect } from "react";
 import AppBar from "./components/appbar";
 import Banner from "./components/banner";
+import Promotion from "./components/promotions";
 import theme from "./styles/theme";
 
 function App() {
@@ -14,8 +15,8 @@ function App() {
       <Container maxWidth="xl">
         <AppBar />
         <Banner />
+        <Promotion />
         {/*
-      Promotion
       Products
       Footer
       SearchBox
