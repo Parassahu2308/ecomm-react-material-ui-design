@@ -1,5 +1,5 @@
 import { createTheme } from "@mui/material/styles";
-// import { darken, lighten } from "polished";
+import { darken, lighten } from "polished";
 
 // export const DrawerWidth = 250;
 
@@ -79,25 +79,25 @@ const theme = createTheme({
     //     },
     //   },
     // },
-    //     MyShopButton: {
-    //       styleOverrides: {
-    //         root: {
-    //           color: Colors.white,
-    //         },
-    //         primary: {
-    //           background: Colors.primary,
-    //           "&:hover": {
-    //             background: lighten(0.05, Colors.primary),
-    //           },
-    //         },
-    //         secondary: {
-    //           background: `${Colors.secondary}`,
-    //           "&:hover": {
-    //             background: lighten(0.05, Colors.primary),
-    //           },
-    //         },
-    //       },
-    //     },
+    MyShopButton: {
+      styleOverrides: {
+        root: {
+          color: Colors.white,
+        },
+        primary: {
+          background: Colors.primary,
+          "&:hover": {
+            background: lighten(0.05, Colors.primary),
+          },
+        },
+        secondary: {
+          background: `${Colors.secondary}`,
+          "&:hover": {
+            background: lighten(0.05, Colors.primary),
+          },
+        },
+      },
+    },
   },
 });
 

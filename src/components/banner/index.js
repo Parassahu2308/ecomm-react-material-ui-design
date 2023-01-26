@@ -6,6 +6,7 @@ import {
   BannerContent,
   BannerDescription,
   BannerImage,
+  BannerShopButton,
   BannerTitle,
 } from "../../styles/banner";
 
@@ -21,9 +22,12 @@ function Banner() {
         <BannerTitle variant="h2">New Bags</BannerTitle>
 
         <BannerDescription variant="subtitle">
-          lorem kuyvcp kejc wuaueyf UWtriulq iiwyuw, oiiwyefwh kwuyflbli
-          iuewfihfvuykt uy6ivyt76crfu
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled
         </BannerDescription>
+        <BannerShopButton color="primary">Shop Now</BannerShopButton>
       </BannerContent>
     </BannerContainer>
   );
