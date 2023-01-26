@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { Colors } from "../theme";
+import "@fontsource/montez";
 
 export const PromotionContainer = styled(Box)(({ theme }) => ({
   display: "flex",
