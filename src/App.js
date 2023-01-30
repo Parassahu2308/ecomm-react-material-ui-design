@@ -2,6 +2,7 @@ import { Box, Container, ThemeProvider, Typography } from "@mui/material";
 import { useEffect } from "react";
 import AppBar from "./components/appbar";
 import Banner from "./components/banner";
+import Footer from "./components/footer";
 import Product from "./components/product";
 import Promotion from "./components/promotions";
 import theme from "./styles/theme";
@@ -28,8 +29,8 @@ function App() {
           </Typography>
         </Box>
         <Product />
+        <Footer />
         {/*
-      Footer
       SearchBox
       AppDrawer
       */}
